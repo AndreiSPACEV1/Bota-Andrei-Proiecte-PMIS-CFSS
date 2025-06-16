@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AndreiSPACEV1.github.io/Bota-Andrei-Proiecte-PMIS-CFSS",
+  "homepage": "https://AndreiSPACEV1.github.io/Bota-Andrei-Proiecte-PMIS-CFSS/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -5,11 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/Bota-Andrei-Proiecte-PMIS-CFSS/',
-  server: {
-    host: "::",
-    port: 8080,
-  },
+  base: '/Bota-Andrei-Proiecte-PMIS-CFSS',
   plugins: [
     react(),
     mode === 'development' &&
