@@ -4,9 +4,12 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig({ 
-   
+export default defineConfig({
   plugins: [react()],
   base: '/Bota-Andrei-Proiecte-PMIS-CFSS',
-
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
 });
